@@ -1,0 +1,578 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "TT Hoves" , sans-serif; 
+}
+section{
+    padding: 0 120px;
+    margin-bottom: 160px;
+}
+.texnikum{
+    background-image: url(./img/html_css_js\ .png);
+    background-repeat: no-repeat;
+    background-position: top calc(4.9vw + 58.7px) right calc(6.1vw - 19.8px);
+    background-size: 30vw;
+   
+}
+.logo{
+    margin-top: 40px ;
+    width: calc(8.7vw + 183px);
+}
+.course_info{
+    display: flex;
+    margin-top: calc(6.9vw + 2.1px);
+    gap: calc(15.8vw - 29.1px);
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(6.3vw + 4.4px );
+    margin-bottom: calc(3.1vw + 36.4px);
+    font-size: calc(0.6vw +14px);
+}
+.title{
+    font-family: 'TT Hoves', sans-serif;
+    font-size: 21px;
+    line-height: 140%;
+}
+.subtitle{
+    font-size: 21px;
+    font-weight: 700;
+}
+.deline{
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(6.3vw + 4.4px );
+    margin-bottom: calc(3.1vw + 36.4px);
+    font-size: calc(0.6vw +14px);
+}
+.texnikum h1{
+    margin-top: calc(3.4vw + 35.3px) ;
+    font-size: calc(4.2vw + 26.2px);
+    font-weight: 400;
+    font-family: 'Chava', sans-serif;
+}
+.texnikum p{
+    font-family: 'TT Hoves', sans-serif;
+    margin-top: calc(2.2vw +11.7px);
+    font-size: calc(1vw + 14.3px);
+    width: calc(73.5vw + 53.5px);
+    margin-top: calc(2.4vw + 11px);
+}
+.main_button{
+    margin-top: 20px;
+}
+.purple{
+    width: 328px;
+    background-color: #6E3ABA;
+    color: #fff;
+    padding: 20px 40px;
+    margin: 20px 30px;
+    gap: 10px;
+    border: 2px solid #6E3ABA;
+    border-radius: 12px;
+    font-family: 'TT Hoves' sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.secondary{
+    width: 328px;
+    padding: 20px 65px;
+    gap: 10px;
+    border: 2px solid #6E3ABA;
+    border-radius: 12px;
+    color: #6E3ABA;
+    background-color: #fff;
+}
+/*guys*/
+.guys h2{
+    font-family: 'TT Hoves' , sans-serif;
+    font-size: calc(2.9vw + 23.1px);
+    font-weight: 500;
+
+}
+.guys_box1{
+    display: flex;
+    justify-content: space-between;
+}
+.guys_box2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+.box1{
+    width: 450px;
+}
+.box1 h3{
+    font-family: 'TT Hoves' , sans-serif;
+    font-size: calc(1.2vw + 13.5px);
+    font-weight: 600;
+}
+.box1 p{
+    margin-top: calc(1.2vw + 5.5px);
+    font-family: 'TT Hoves' , sans-serif;
+    font-size: calc(1.2vw + 13.5px);
+    font-weight: 400;
+}
+.box1 img{
+    width: calc(3.6vw + 166.3px);
+}
+/*information*/
+.infoname{
+    font-family: "TT Hoves", sans-serif;
+    margin-left: calc(10.7vw - 17.1px);
+    margin-top: 160px;
+    font-size: calc(3.4vw + 19.2px);
+}
+.info1{
+    display: flex;
+    justify-content: space-around;
+}
+.info2{
+    display: flex;
+    justify-content: space-around;
+}
+.boxinfo1{
+    width: 400px;
+    margin-top: 90px;
+}
+.boxinfo2{
+    width: 400px;
+    margin-top: 90px;
+}
+.boxinfo1 p{
+    font-size: calc(1.5vw + 10.5px);
+    font-family: "TT Hoves", sans-serif;
+    margin-top: calc(1.2vw + 5.4px);
+}
+.boxinfo1 h3{
+    font-size: 27px;
+    font-family: "TT Hoves", sans-serif;
+}
+.boxinfo2 h3{
+    font-size: 27px;
+    font-family: "TT Hoves", sans-serif;
+}
+.boxinfo2 P{
+    font-size: calc(1.5vw + 10.5px);
+    font-family: "TT Hoves", sans-serif;
+    margin-top: calc(1.2vw + 5.4px);
+}
+/*timer*/
+.timer {
+    padding-top: 80px;
+    margin-top: 60px;
+    background-color: blueviolet;
+    width: 100%;
+    height: 623px;
+  }
+  
+  .timeCards {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+  }
+  .subtitle {
+    font-family: "TT Hoves";
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 31.81px;
+    text-align: center;
+    padding-left: calc(8.83977900552486vw - 58.1491712707182px); 
+  }
+  .timetitle1 {
+    width: calc(18.1vw + 9.04px);
+    font-family: "Chava";
+    font-size: calc(12.6vw + 12.7px);
+    line-height: 187.05px;
+  }
+  
+  .timetitle2 {
+    width: calc(18.1vw + 9.04px);
+    font-family: "Chava";
+    font-size: calc(12.6vw + 12.7px);
+    line-height: 187.05px;
+  }
+  .secondary {
+    width: 328px;
+    height: 61px;
+    top: 474px;
+    left: 494px;
+    padding: 20px 0px 20px 0px;
+    gap: 10px;
+    border-radius: 12px;
+    color: #6e3aba;
+    font-family: "TT Hoves", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.2px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .timer {
+    background-color: #6e3aba;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 57px;
+    padding: 84px 0;
+    margin-top: 160px;
+  }
+  .timer h2 {
+    font-size: calc(2vw + 26.5px);
+    font-weight: 700;
+    line-height: 117%;
+    color: #fff;
+    font-family: "TT Hoves", sans-serif;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .timeCards {
+    display: flex;
+    gap: calc(7.73480662983425vw - 15.0055248618785px);
+    font-size: calc(12.5966850828729vw + 1.7624309392265px);
+  }
+  .timeCard .subtitle {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 31.81px;
+    text-align: center;
+  }
+/*diplom*/
+.diplom_sec {
+    display: flex;
+    padding-top: 160px;
+    padding-left: 120px;
+  }
+  .text_infoDiplom h1 {
+    font-family: "TT Hoves", sans-serif;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68.32px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 590px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .text_infoDiplom p {
+    font-family: "TT Hoves", sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.8px;
+    text-align: left;
+    width: 514px;
+    height: 114px;
+    color: #222222;
+  }
+  .text_infoDiplom {
+    padding-left: 20px;
+  }
+  .diplom_ad {
+    display: none;
+  }
+  .diplom_adContainer h2 {
+    font-family: "TT Hoves", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40.05px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 328px;
+    height: 120px;
+    color: #222222;
+    text-transform: uppercase;
+  }
+  .diplom_adContainer p {
+    font-family: "TT Hoves", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    padding-left: 20px;
+    color: #222222;
+  }
+  .diplom_adContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .diplom_adContainer img{
+    width: calc(12.4vw + 281.6px);
+  }
+  
+/*developer*/
+ .developer h2{
+
+    font-family: 'TT Hoves' , sans-serif;
+    font-size: calc(2.9vw + 23.1px);
+    font-weight: 500;
+ }
+ .developer p{
+    width: calc(66.4vw + 79px);
+    margin-top: calc(2.4vw + 11px);
+    font-family: 'TT Hoves', sans-serif;
+    font-size:calc(1.1vw + 13.1px);
+    font-weight: 400;
+
+ }
+ .developer img{
+    width: calc(89.3vw - 7px);
+    margin-top: calc(1.9vw + 12.7px);
+ }
+ /*prise*/
+ .prise h2{
+    font-family: 'TT Hoves' , sans-serif;
+    font-size: calc(2.9vw + 23.1px);
+    font-weight: 500;
+ }
+ .prise_img{
+    margin-top: calc(1.2vw + 15.5px);
+ }
+ .prise_img img{
+    width: calc(24.2vw + 289.1px);
+ }
+ .prisemain{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .priseinfo{
+    margin-top: calc(8.5vw - 11.8px);
+ }
+ .priseinfo p{
+    margin-top: calc(0.6vw + 17.2px);
+    font-family: 'TT Hoves', sans-serif;
+    font-size: calc(0.4vw + 16.6px);
+    font-weight: 400;
+ }
+ /*achivments*/
+ .achivments h2{
+    font-family: 'TT Hoves' , sans-serif;
+    font-size: calc(2.9vw + 23.1px);
+    font-weight: 500;
+ }
+ .main_achiv{
+    display: flex;
+    justify-content: space-between;
+ }
+ .achiv_img{
+    margin-top: calc(5.6vw + 13.1px);
+ }
+ .achiv_img p{
+    width: calc(12.1vw + 282.5px);
+    font-family: 'TT Hoves',sans-serif;
+    font-size: calc(0.6vw + 19.7px);
+    font-weight: 600;
+    margin-top: calc(2.4vw + 11px);
+ }
+ .achiv_info{
+    margin-top: 98px;
+ }
+ .achiv1 h3{
+    font-family: 'TT Hoves' , sans-serif;
+    font-size: calc(2.9vw + 23.1px);
+    font-weight: 700;
+ }
+ .achiv1 span{
+    margin-top: 5px;
+ }
+ .achiv2{
+    margin-top: 40px;
+ }
+ .achiv2 h3{
+    font-family: 'TT Hoves' , sans-serif;
+    font-size: calc(2.9vw + 23.1px);
+    font-weight: 700;
+ }
+ .achiv2 span{
+    margin-top: 5px;
+ }
+ /*fiedback start*/
+.fiedback{
+    margin-left: 120px;
+    margin-right: 95px;
+}
+.fiedback h2{
+    margin-bottom: calc(2.2vw + 11.7px);
+}
+.fiedback_cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.fiedback_card{
+    background-color: #F0F7FD;
+    padding: 46px calc(0.4vw + 14.3px);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 484px;
+}
+.youtube{
+    margin-bottom: 12px;
+}
+.fiedback_card p{
+    font-size: 21px;
+    line-height: 140%;
+}
+.fiedback_user{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.fiedback_user img{
+ border-radius: 50%;
+}
+.fiedback_user p{
+    max-width: 169px;
+}
+.socials {
+    width: 50px;
+    height: 50px;
+}
+/*photo*/
+.photo h2{
+    width: calc(58.2vw + 109.6px);
+    font-family: 'TT Hoves',sans-serif;
+    font-size: calc(2.7vw + 24.05px);
+    font-weight: 500;
+    color: #222222;
+}
+
+.photo p{
+    color: #222222;
+    width: calc(46.4vw + 154px);
+    font-family: 'TT Hoves',sans-serif;
+    font-size: calc(1vw + 14.27px);
+    font-weight: 400;
+    margin-top: 14px;
+}
+.splide__slide{
+    display: flex;
+    margin-top: 22px;
+}
+.main_photo img{
+    width: calc(20vw + 253.4px);
+}
+
+@media (max-width:975px) {
+    section{
+        padding: 0 24px;
+    }
+    .texnikum h1{
+        width: 332px;
+    }
+    .course_info{
+        display: flex;
+        flex-direction: column;
+    }
+    .dedline h2{
+        width: 328px;
+    }
+    .box_main1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .box_main2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .purple{
+        margin: 0;
+    }
+    .box{
+        margin-top: 30px;
+    }
+    .time{
+        width: 88px;
+    }
+    .subtitle{
+        font-size: 10px;
+    }
+    .infoname{
+        width: 328px;
+    }
+    .info1{
+        display: block;
+    }
+    .info2{
+        display: block;
+    }
+    .boxinfo1{
+        width: 328px;
+    }
+    .boxinfo2{
+        width: 328px;
+    }
+    .guys{
+        margin-left: 24px;
+    }
+    .guys_box1{
+        display: flex;
+        flex-direction: column;
+    }
+    .guys_box2{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        width: 180px;
+        margin-top: 40px;
+    }
+    .prisemain{
+        display: flex;
+        flex-direction: column;
+    }
+    .diplom_ad {
+        display: block;
+      }
+      .diplom_sec {
+        display: none;
+      }
+      .main_achiv{
+        display: flex;
+        flex-direction: column;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.sell_card .time{
+    font-family: 'Chava' , sans-serif;
+    font-size: calc(20vw + 13.5px);
+    line-height: 187.05px;
+}
+.sell_card{
+    width: calc(20vw + 13.5px);
+    gap: 10px;
+}
+
+.sell_card span{
+    display: block;
+    font-weight: 500;
+    line-height: 117%;
+    text-align: center;
+}*/
